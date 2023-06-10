@@ -1,0 +1,7 @@
+<p class="mytype" data-speed="200">First paragraph</p>
+<p class="mytype" data-speed="150">Second paragraph</p>
+<p class="mytype" data-speed="100">Third paragraph</p>
+------------------------------
+Use this command on your Elementor shortcode,
+Note that the speed values represent the typing speed in milliseconds, where a smaller value means a faster typing speed. Adjust the speed values as per your requirements.
+

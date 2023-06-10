@@ -1,0 +1,26 @@
+.typewriter::after {
+    content: '|';
+    display: inline-block;
+    width: 100px;
+    animation: cursor-blink 0.7s infinite;
+}
+
+@keyframes cursor-blink {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+}
+
+/* Add mobile-responsive styles */
+@media screen and (max-width: 767px) {
+    .typewriter::after {
+        display: none;
+    }
+    
+    .typewriter {
+        white-space: normal; /* Allow line breaks on mobile */
+    }
+}
